@@ -7,8 +7,10 @@ class MoviesController < ApplicationController
   end
 
   def index
-    if(params[:ascending])
-      @movies = Movie.all.sort_by{|m| m.release_date}
+ logger.info params
+    order = params[:order]
+    if(order)
+      @movies = Movie.order("trim(lower(#{order}))")
     else
       @movies = Movie.all
     end
