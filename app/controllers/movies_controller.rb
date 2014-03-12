@@ -10,9 +10,9 @@ class MoviesController < ApplicationController
     logger.info params
     @order = params[:order]
     
-    if(@order == title)
+    if(@order == "title")
       @movies = Movie.find(:all, :order => "lower(#{@order})")
-    elsif(@order == release_date)
+    elsif(@order == "release_date")
       @movies = Movie.find(:all, :order => "#{@order}")
     else
       @movies = Movie.all
