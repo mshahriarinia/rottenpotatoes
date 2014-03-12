@@ -9,6 +9,7 @@ class MoviesController < ApplicationController
   def index
     logger.info params
     @order = params[:order]
+    @all_ratings = Movie.ALL_RATINGS
     
     if(@order == "title")
       @movies = Movie.find(:all, :order => "lower(#{@order})")

@@ -3679,3 +3679,230 @@ Served asset /jquery.js - 304 Not Modified (0ms)
 
 Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-12 13:04:12 -0700
 Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?order=release_date" for 127.0.0.1 at 2014-03-12 14:00:21 -0700
+Connecting to database specified by database.yml
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date"}
+{"order"=>"release_date", "action"=>"index", "controller"=>"movies"}
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `ALL_RATINGS' for #<Class:0xa8d7b38>):
+  app/controllers/movies_controller.rb:12:in `index'
+
+
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.7ms)
+
+
+Started GET "/movies?order=release_date" for 127.0.0.1 at 2014-03-12 14:01:01 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date"}
+{"order"=>"release_date", "action"=>"index", "controller"=>"movies"}
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `ALL_RATINGS' for #<Class:0xb58653e8>):
+  app/controllers/movies_controller.rb:12:in `index'
+
+
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.6ms)
+
+
+Started GET "/movies?order=release_date" for 127.0.0.1 at 2014-03-12 14:02:04 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date"}
+{"order"=>"release_date", "action"=>"index", "controller"=>"movies"}
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `ALL_RATINGS' for #<Class:0xb59d7dc0>):
+  app/controllers/movies_controller.rb:12:in `index'
+
+
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.5ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2014-03-12 14:02:25 -0700
+Processing by MoviesController#index as HTML
+{"action"=>"index", "controller"=>"movies"}
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `ALL_RATINGS' for #<Class:0xb59d7dc0>):
+  app/controllers/movies_controller.rb:12:in `index'
+
+
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.8ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.9ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2014-03-12 14:08:25 -0700
+Connecting to database specified by database.yml
+Processing by MoviesController#index as HTML
+{"action"=>"index", "controller"=>"movies"}
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `ALL_RATINGS' for #<Class:0xa281090>):
+  app/controllers/movies_controller.rb:12:in `index'
+
+
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.3ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2014-03-12 14:12:39 -0700
+Processing by MoviesController#index as HTML
+{"action"=>"index", "controller"=>"movies"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+  Rendered movies/index.html.haml within layouts/application (7.6ms)
+Completed 200 OK in 29ms (Views: 21.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-12 14:12:39 -0700
+Served asset /jquery.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-12 14:12:39 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=1&commit=Refresh" for 127.0.0.1 at 2014-03-12 14:12:42 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"1"}, "commit"=>"Refresh"}
+{"utf8"=>"✓", "ratings"=>{"G"=>"1"}, "commit"=>"Refresh", "action"=>"index", "controller"=>"movies"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" 
+  Rendered movies/index.html.haml within layouts/application (2.9ms)
+Completed 200 OK in 22ms (Views: 21.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-12 14:12:43 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-12 14:12:43 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BNC-17%5D=1&commit=Refresh" for 127.0.0.1 at 2014-03-12 14:19:57 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"NC-17"=>"1"}, "commit"=>"Refresh"}
+{"utf8"=>"✓", "ratings"=>{"NC-17"=>"1"}, "commit"=>"Refresh", "action"=>"index", "controller"=>"movies"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+  Rendered movies/index.html.haml within layouts/application (3.0ms)
+Completed 200 OK in 14ms (Views: 8.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-12 14:19:57 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-12 14:19:57 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings[NC-17]=1&commit=Refresh" for 127.0.0.1 at 2014-03-12 14:29:38 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"NC-17"=>"1"}, "commit"=>"Refresh"}
+{"utf8"=>"✓", "ratings"=>{"NC-17"=>"1"}, "commit"=>"Refresh", "action"=>"index", "controller"=>"movies"}
+  [1m[35mMovie Load (1.0ms)[0m  SELECT "movies".* FROM "movies" 
+  Rendered movies/index.html.haml within layouts/application (3.5ms)
+Completed 200 OK in 15ms (Views: 8.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-12 14:29:38 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-12 14:29:38 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings[NC-17]=1&commit=Refresh" for 127.0.0.1 at 2014-03-12 14:29:40 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"NC-17"=>"1"}, "commit"=>"Refresh"}
+{"utf8"=>"✓", "ratings"=>{"NC-17"=>"1"}, "commit"=>"Refresh", "action"=>"index", "controller"=>"movies"}
+  [1m[36mMovie Load (0.9ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+  Rendered movies/index.html.haml within layouts/application (2.1ms)
+Completed 200 OK in 15ms (Views: 12.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-12 14:29:40 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-12 14:29:40 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&commit=Refresh" for 127.0.0.1 at 2014-03-12 14:29:42 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "commit"=>"Refresh"}
+{"utf8"=>"✓", "commit"=>"Refresh", "action"=>"index", "controller"=>"movies"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" 
+  Rendered movies/index.html.haml within layouts/application (7.8ms)
+Completed 200 OK in 14ms (Views: 11.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-12 14:29:42 -0700
+Served asset /jquery.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-12 14:29:42 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BNC-17%5D=1&commit=Refresh" for 127.0.0.1 at 2014-03-12 14:29:44 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"NC-17"=>"1"}, "commit"=>"Refresh"}
+{"utf8"=>"✓", "ratings"=>{"NC-17"=>"1"}, "commit"=>"Refresh", "action"=>"index", "controller"=>"movies"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+  Rendered movies/index.html.haml within layouts/application (3.8ms)
+Completed 200 OK in 25ms (Views: 18.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-12 14:29:44 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-12 14:29:44 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG-13%5D=1&commit=Refresh" for 127.0.0.1 at 2014-03-12 14:29:46 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG-13"=>"1"}, "commit"=>"Refresh"}
+{"utf8"=>"✓", "ratings"=>{"PG-13"=>"1"}, "commit"=>"Refresh", "action"=>"index", "controller"=>"movies"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" 
+  Rendered movies/index.html.haml within layouts/application (11.5ms)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-12 14:29:46 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-12 14:29:46 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1&commit=Refresh" for 127.0.0.1 at 2014-03-12 14:29:51 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "commit"=>"Refresh"}
+{"utf8"=>"✓", "ratings"=>{"PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "commit"=>"Refresh", "action"=>"index", "controller"=>"movies"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+  Rendered movies/index.html.haml within layouts/application (10.3ms)
+Completed 200 OK in 26ms (Views: 19.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-12 14:29:51 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-12 14:29:51 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
