@@ -7,16 +7,24 @@ class MoviesController < ApplicationController
   end
 
   def index
+    @movies = Movie.scoped    # instead of all: in rails 3 all returns array.
+    @all_ratings = Movie.ALL_RATINGS
+    @ratings_filter_arr = Movie.ALL_RATINGS
+
     logger.info params
     @order = params[:order]
-    @all_ratings = Movie.ALL_RATINGS
     
+
     if(@order == "title")
       @movies = Movie.find(:all, :order => "lower(#{@order})")
     elsif(@order == "release_date")
       @movies = Movie.find(:all, :order => "#{@order}")
-    else
-      @movies = Movie.all
+    end
+
+    #debugger
+    if(params[:ratings])
+      @ratings_filter_arr = params[:ratings].keys
+      @movies = @movies.where("rating in (?)", @ratings_filter_arr) #if params[:ratings]
     end
   end
 
