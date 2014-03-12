@@ -7,10 +7,11 @@ class MoviesController < ApplicationController
   end
 
   def index
- logger.info params
-    order = params[:order]
-    if(order)
-      @movies = Movie.order("trim(lower(#{order}))")
+    logger.info params
+    @order = params[:order]
+    
+    if(@order)
+      @movies = Movie.order("trim(lower(#{@order}))")
     else
       @movies = Movie.all
     end
