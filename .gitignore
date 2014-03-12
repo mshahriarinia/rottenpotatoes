@@ -1,0 +1,7 @@
+# vim temporary file
+*~
+*.swp
+*.swo
+__MACOSX
+.git
+tmp/
