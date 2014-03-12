@@ -1,5 +1,6 @@
 require File.expand_path('../boot', __FILE__)
 
+
 # Pick the frameworks you want:
 require "active_record/railtie"
 require "action_controller/railtie"
@@ -14,6 +15,7 @@ if defined?(Bundler)
   # If you want your assets lazily compiled in production, use this line
   # Bundler.require(:default, :assets, Rails.env)
 end
+
 
 module Rottenpotatoes
   class Application < Rails::Application
