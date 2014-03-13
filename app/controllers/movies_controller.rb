@@ -17,9 +17,11 @@ class MoviesController < ApplicationController
 
     logger.info params
 
-    if(! params[:ratings] && !session[:ratings])  #initially set to view all ratings
+    if(params[:ratings] == nil && session[:ratings] == nil)  #initially set to view all ratings
        params[:ratings] = @all_ratings
     end
+    logger.info "-"*50
+    logger.info params
 
     if(params[:order])
       session[:order] = params[:order]
