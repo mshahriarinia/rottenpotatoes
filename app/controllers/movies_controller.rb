@@ -17,10 +17,13 @@ class MoviesController < ApplicationController
 
     logger.info params
 
-    if(params[:ratings] == nil && session[:ratings] == nil)  #initially set to view all ratings
-       params[:ratings] = @all_ratings
-    end
-    logger.info "-"*50
+    #if(params == nil)
+    #  params = Hash.new
+    #end
+    #if(params[:ratings] == nil && session[:ratings] == nil)  #initially set to view all ratings
+    #   params = {:ratings => @all_ratings} #create initial params hash
+    #end
+    logger.info "-"*50	
     logger.info params
 
     if(params[:order])
@@ -33,7 +36,7 @@ class MoviesController < ApplicationController
         @movies = Movie.order("lower(#{@order})")
       elsif(@order == "release_date")
         @movies = Movie.order("lower(#{@order})")
-      end
+     end
 
     #debugger
     if(params[:ratings])
@@ -41,9 +44,10 @@ class MoviesController < ApplicationController
     end
 
       params[:ratings] = session[:ratings]
+      if(params[:ratings] != nil) 
       @ratings_filter_arr = params[:ratings].keys
       @movies = @movies.where("rating in (?)", @ratings_filter_arr) #if params[:ratings]
-
+ end
   end
 
   def new
