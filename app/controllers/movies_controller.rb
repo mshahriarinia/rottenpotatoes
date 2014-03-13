@@ -33,9 +33,9 @@ class MoviesController < ApplicationController
       params[:order] = session[:order]
       @order = params[:order]
       if(@order == "title")
-        @movies = Movie.order("lower(#{@order})")
+        @movies = Movie.order("LOWER(#{@order})")
       elsif(@order == "release_date")
-        @movies = Movie.order("lower(#{@order})")
+        @movies = Movie.order("#{@order}")
      end
 
     #debugger
