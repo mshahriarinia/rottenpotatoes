@@ -8076,3 +8076,2882 @@ Processing by MoviesController#index as HTML
   [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE (rating in ('PG','PG-13','R','NC-17')) ORDER BY lower(title)
   Rendered movies/index.html.haml within layouts/application (6.4ms)
 Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2014-03-13 19:31:44 -0700
+Connecting to database specified by database.yml
+Processing by MoviesController#index as HTML
+{"action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"action"=>"index", "controller"=>"movies"}
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `merge' for nil:NilClass):
+  app/controllers/movies_controller.rb:31:in `index'
+
+
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.6ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2014-03-13 19:35:03 -0700
+Processing by MoviesController#index as HTML
+{"action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"action"=>"index", "controller"=>"movies"}
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `each_pair' for nil:NilClass):
+  app/controllers/movies_controller.rb:32:in `index'
+
+
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2014-03-13 19:38:26 -0700
+Processing by MoviesController#index as HTML
+{"action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"action"=>"index", "controller"=>"movies"}
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `merge' for nil:NilClass):
+  app/controllers/movies_controller.rb:32:in `index'
+
+
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.8ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2014-03-13 19:43:37 -0700
+Processing by MoviesController#index as HTML
+{"action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?morteza=1
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?morteza=1" for 127.0.0.1 at 2014-03-13 19:43:37 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"morteza"=>"1"}
+{"morteza"=>"1", "action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"morteza"=>"1", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?morteza=1
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?morteza=1" for 127.0.0.1 at 2014-03-13 19:43:37 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"morteza"=>"1"}
+{"morteza"=>"1", "action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"morteza"=>"1", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?morteza=1
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?morteza=1" for 127.0.0.1 at 2014-03-13 19:43:37 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"morteza"=>"1"}
+{"morteza"=>"1", "action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"morteza"=>"1", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?morteza=1
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?morteza=1" for 127.0.0.1 at 2014-03-13 19:43:37 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"morteza"=>"1"}
+{"morteza"=>"1", "action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"morteza"=>"1", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?morteza=1
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?morteza=1" for 127.0.0.1 at 2014-03-13 19:43:37 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"morteza"=>"1"}
+{"morteza"=>"1", "action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"morteza"=>"1", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?morteza=1
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?morteza=1" for 127.0.0.1 at 2014-03-13 19:43:37 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"morteza"=>"1"}
+{"morteza"=>"1", "action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"morteza"=>"1", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?morteza=1
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?morteza=1" for 127.0.0.1 at 2014-03-13 19:43:37 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"morteza"=>"1"}
+{"morteza"=>"1", "action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"morteza"=>"1", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?morteza=1
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?morteza=1" for 127.0.0.1 at 2014-03-13 19:43:37 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"morteza"=>"1"}
+{"morteza"=>"1", "action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"morteza"=>"1", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?morteza=1
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?morteza=1" for 127.0.0.1 at 2014-03-13 19:43:37 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"morteza"=>"1"}
+{"morteza"=>"1", "action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"morteza"=>"1", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?morteza=1
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?morteza=1" for 127.0.0.1 at 2014-03-13 19:43:37 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"morteza"=>"1"}
+{"morteza"=>"1", "action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"morteza"=>"1", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?morteza=1
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?morteza=1" for 127.0.0.1 at 2014-03-13 19:43:37 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"morteza"=>"1"}
+{"morteza"=>"1", "action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"morteza"=>"1", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?morteza=1
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?morteza=1" for 127.0.0.1 at 2014-03-13 19:43:37 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"morteza"=>"1"}
+{"morteza"=>"1", "action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"morteza"=>"1", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?morteza=1
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?morteza=1" for 127.0.0.1 at 2014-03-13 19:43:37 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"morteza"=>"1"}
+{"morteza"=>"1", "action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"morteza"=>"1", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?morteza=1
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?morteza=1" for 127.0.0.1 at 2014-03-13 19:43:38 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"morteza"=>"1"}
+{"morteza"=>"1", "action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"morteza"=>"1", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?morteza=1
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?morteza=1" for 127.0.0.1 at 2014-03-13 19:43:38 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"morteza"=>"1"}
+{"morteza"=>"1", "action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"morteza"=>"1", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?morteza=1
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?morteza=1" for 127.0.0.1 at 2014-03-13 19:43:38 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"morteza"=>"1"}
+{"morteza"=>"1", "action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"morteza"=>"1", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?morteza=1
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?morteza=1" for 127.0.0.1 at 2014-03-13 19:43:38 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"morteza"=>"1"}
+{"morteza"=>"1", "action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"morteza"=>"1", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?morteza=1
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?morteza=1" for 127.0.0.1 at 2014-03-13 19:43:38 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"morteza"=>"1"}
+{"morteza"=>"1", "action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"morteza"=>"1", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?morteza=1
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?morteza=1" for 127.0.0.1 at 2014-03-13 19:43:38 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"morteza"=>"1"}
+{"morteza"=>"1", "action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"morteza"=>"1", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?morteza=1
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?morteza=1" for 127.0.0.1 at 2014-03-13 19:43:38 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"morteza"=>"1"}
+{"morteza"=>"1", "action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"morteza"=>"1", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?morteza=1
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2014-03-13 20:01:50 -0700
+Processing by MoviesController#index as HTML
+{"action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"action"=>"index", "controller"=>"movies"}
+==================================================
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "order"=>"release_date"}
+==================================================
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (rating in ('G','NC-17','PG','PG-13','R')) ORDER BY release_date[0m
+  Rendered movies/index.html.haml within layouts/application (16.7ms)
+Completed 200 OK in 35ms (Views: 33.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-13 20:01:50 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-13 20:01:50 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2014-03-13 20:11:41 -0700
+Processing by MoviesController#index as HTML
+{"action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"action"=>"index", "controller"=>"movies"}
+==================================================
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "order"=>"release_date"}
+==================================================
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies" WHERE (rating in ('G','NC-17','PG','PG-13','R')) ORDER BY release_date
+  Rendered movies/index.html.haml within layouts/application (9.8ms)
+Completed 200 OK in 18ms (Views: 14.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-13 20:11:41 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-13 20:11:41 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2014-03-13 20:11:42 -0700
+Processing by MoviesController#index as HTML
+{"action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"action"=>"index", "controller"=>"movies"}
+==================================================
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "order"=>"release_date"}
+==================================================
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (rating in ('G','NC-17','PG','PG-13','R')) ORDER BY release_date[0m
+  Rendered movies/index.html.haml within layouts/application (10.4ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-13 20:11:42 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-13 20:11:42 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2014-03-13 20:13:11 -0700
+Processing by MoviesController#index as HTML
+{"action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"action"=>"index", "controller"=>"movies"}
+==================================================
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "order"=>"release_date"}
+==================================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{"action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "order"=>"release_date"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE (rating in ('G','NC-17','PG','PG-13','R')) ORDER BY release_date
+  Rendered movies/index.html.haml within layouts/application (9.0ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-13 20:13:11 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-13 20:13:11 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2014-03-13 20:13:13 -0700
+Processing by MoviesController#index as HTML
+{"action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"action"=>"index", "controller"=>"movies"}
+==================================================
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "order"=>"release_date"}
+==================================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{"action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "order"=>"release_date"}
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (rating in ('G','NC-17','PG','PG-13','R')) ORDER BY release_date[0m
+  Rendered movies/index.html.haml within layouts/application (11.6ms)
+Completed 200 OK in 18ms (Views: 15.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-13 20:13:13 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-13 20:13:13 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2014-03-13 20:15:04 -0700
+Processing by MoviesController#index as HTML
+{"action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"action"=>"index", "controller"=>"movies"}
+==================================================
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "order"=>"release_date"}
+==================================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{"action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "order"=>"release_date"}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE (rating in ('G','NC-17','PG','PG-13','R')) ORDER BY release_date
+  Rendered movies/index.html.haml within layouts/application (9.8ms)
+Completed 200 OK in 16ms (Views: 14.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-13 20:15:05 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-13 20:15:05 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2014-03-13 20:17:07 -0700
+Processing by MoviesController#index as HTML
+{"action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"action"=>"index", "controller"=>"movies"}
+==================================================
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "order"=>"release_date"}
+==================================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{:ratings=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, :order=>"release_date"}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Redirected to http://localhost:3000/movies?order=release_date&ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=release_date&ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 20:17:07 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"order"=>"release_date", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"order"=>"release_date", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+==================================================
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "order"=>"release_date"}
+==================================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (rating in ('G','NC-17','PG','PG-13','R')) ORDER BY release_date[0m
+  Rendered movies/index.html.haml within layouts/application (16.8ms)
+Completed 200 OK in 27ms (Views: 26.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-13 20:17:07 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-13 20:17:07 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?order=release_date&ratings[G]=1&ratings[NC-17]=1&ratings[PG]=1&ratings[PG-13]=1&ratings[R]=1" for 127.0.0.1 at 2014-03-13 20:17:17 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"order"=>"release_date", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"order"=>"release_date", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+==================================================
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "order"=>"release_date"}
+==================================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  [1m[35mMovie Load (5.9ms)[0m  SELECT "movies".* FROM "movies" WHERE (rating in ('G','NC-17','PG','PG-13','R')) ORDER BY release_date
+  Rendered movies/index.html.haml within layouts/application (11.3ms)
+Completed 200 OK in 16ms (Views: 9.8ms | ActiveRecord: 5.9ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-13 20:17:17 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-13 20:17:17 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BNC-17%5D=1&commit=Refresh" for 127.0.0.1 at 2014-03-13 20:17:21 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"1", "PG"=>"1", "PG-13"=>"1", "NC-17"=>"1"}, "commit"=>"Refresh"}
+{"utf8"=>"✓", "ratings"=>{"G"=>"1", "PG"=>"1", "PG-13"=>"1", "NC-17"=>"1"}, "commit"=>"Refresh", "action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"utf8"=>"✓", "ratings"=>{"G"=>"1", "PG"=>"1", "PG-13"=>"1", "NC-17"=>"1"}, "commit"=>"Refresh", "action"=>"index", "controller"=>"movies"}
+==================================================
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "order"=>"release_date"}
+==================================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{:order=>"release_date"}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Redirected to http://localhost:3000/movies?order=release_date
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=release_date" for 127.0.0.1 at 2014-03-13 20:17:21 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date"}
+{"order"=>"release_date", "action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"order"=>"release_date", "action"=>"index", "controller"=>"movies"}
+==================================================
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "PG"=>"1", "PG-13"=>"1", "NC-17"=>"1"}, "order"=>"release_date"}
+==================================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{:ratings=>{"G"=>"1", "PG"=>"1", "PG-13"=>"1", "NC-17"=>"1"}}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1" for 127.0.0.1 at 2014-03-13 20:17:21 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "action"=>"index", "controller"=>"movies"}
+==================================================
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "PG"=>"1", "PG-13"=>"1", "NC-17"=>"1"}, "order"=>"release_date"}
+==================================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{:order=>"release_date"}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Redirected to http://localhost:3000/movies?order=release_date
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=release_date" for 127.0.0.1 at 2014-03-13 20:17:21 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date"}
+{"order"=>"release_date", "action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"order"=>"release_date", "action"=>"index", "controller"=>"movies"}
+==================================================
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "order"=>"release_date"}
+==================================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{:ratings=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1" for 127.0.0.1 at 2014-03-13 20:17:21 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "action"=>"index", "controller"=>"movies"}
+==================================================
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "order"=>"release_date"}
+==================================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{:order=>"release_date"}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Redirected to http://localhost:3000/movies?order=release_date
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=release_date" for 127.0.0.1 at 2014-03-13 20:17:21 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date"}
+{"order"=>"release_date", "action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"order"=>"release_date", "action"=>"index", "controller"=>"movies"}
+==================================================
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "order"=>"release_date"}
+==================================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{:ratings=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1" for 127.0.0.1 at 2014-03-13 20:17:21 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "action"=>"index", "controller"=>"movies"}
+==================================================
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "order"=>"release_date"}
+==================================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{:order=>"release_date"}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Redirected to http://localhost:3000/movies?order=release_date
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=release_date" for 127.0.0.1 at 2014-03-13 20:17:21 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date"}
+{"order"=>"release_date", "action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"order"=>"release_date", "action"=>"index", "controller"=>"movies"}
+==================================================
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "order"=>"release_date"}
+==================================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{:ratings=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1" for 127.0.0.1 at 2014-03-13 20:17:21 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "action"=>"index", "controller"=>"movies"}
+==================================================
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "order"=>"release_date"}
+==================================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{:order=>"release_date"}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Redirected to http://localhost:3000/movies?order=release_date
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=release_date" for 127.0.0.1 at 2014-03-13 20:17:21 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date"}
+{"order"=>"release_date", "action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"order"=>"release_date", "action"=>"index", "controller"=>"movies"}
+==================================================
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "order"=>"release_date"}
+==================================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{:ratings=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1" for 127.0.0.1 at 2014-03-13 20:17:21 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "action"=>"index", "controller"=>"movies"}
+==================================================
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "order"=>"release_date"}
+==================================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{:order=>"release_date"}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Redirected to http://localhost:3000/movies?order=release_date
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=release_date" for 127.0.0.1 at 2014-03-13 20:17:21 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date"}
+{"order"=>"release_date", "action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"order"=>"release_date", "action"=>"index", "controller"=>"movies"}
+==================================================
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "order"=>"release_date"}
+==================================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{:ratings=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1" for 127.0.0.1 at 2014-03-13 20:17:21 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "action"=>"index", "controller"=>"movies"}
+==================================================
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "order"=>"release_date"}
+==================================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{:order=>"release_date"}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Redirected to http://localhost:3000/movies?order=release_date
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=release_date" for 127.0.0.1 at 2014-03-13 20:17:21 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date"}
+{"order"=>"release_date", "action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"order"=>"release_date", "action"=>"index", "controller"=>"movies"}
+==================================================
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "order"=>"release_date"}
+==================================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{:ratings=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1" for 127.0.0.1 at 2014-03-13 20:17:21 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "action"=>"index", "controller"=>"movies"}
+==================================================
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "order"=>"release_date"}
+==================================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{:order=>"release_date"}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Redirected to http://localhost:3000/movies?order=release_date
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=release_date" for 127.0.0.1 at 2014-03-13 20:17:21 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date"}
+{"order"=>"release_date", "action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"order"=>"release_date", "action"=>"index", "controller"=>"movies"}
+==================================================
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "order"=>"release_date"}
+==================================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{:ratings=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1" for 127.0.0.1 at 2014-03-13 20:17:21 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "action"=>"index", "controller"=>"movies"}
+==================================================
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "order"=>"release_date"}
+==================================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{:order=>"release_date"}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Redirected to http://localhost:3000/movies?order=release_date
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=release_date" for 127.0.0.1 at 2014-03-13 20:17:22 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date"}
+{"order"=>"release_date", "action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"order"=>"release_date", "action"=>"index", "controller"=>"movies"}
+==================================================
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "order"=>"release_date"}
+==================================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{:ratings=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1" for 127.0.0.1 at 2014-03-13 20:17:22 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "action"=>"index", "controller"=>"movies"}
+==================================================
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "order"=>"release_date"}
+==================================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{:order=>"release_date"}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Redirected to http://localhost:3000/movies?order=release_date
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=release_date" for 127.0.0.1 at 2014-03-13 20:17:22 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date"}
+{"order"=>"release_date", "action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"order"=>"release_date", "action"=>"index", "controller"=>"movies"}
+==================================================
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "order"=>"release_date"}
+==================================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{:ratings=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1" for 127.0.0.1 at 2014-03-13 20:17:22 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "action"=>"index", "controller"=>"movies"}
+==================================================
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "order"=>"release_date"}
+==================================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{:order=>"release_date"}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Redirected to http://localhost:3000/movies?order=release_date
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2014-03-13 20:19:49 -0700
+Processing by MoviesController#index as HTML
+{"action"=>"index", "controller"=>"movies"}
+--------------------------------------------------
+{"action"=>"index", "controller"=>"movies"}
+==================================================
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "order"=>"release_date"}
+==================================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{:ratings=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, :order=>"release_date"}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `merge' for nil:NilClass):
+  app/controllers/movies_controller.rb:43:in `index'
+
+
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.9ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2014-03-13 20:20:33 -0700
+Processing by MoviesController#index as HTML
+{"action"=>"index", "controller"=>"movies"}
+params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-
+{"action"=>"index", "controller"=>"movies"}
+session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "order"=>"release_date"}
+==================================================
+tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~
+{:ratings=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, :order=>"release_date"}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `merge' for nil:NilClass):
+  app/controllers/movies_controller.rb:43:in `index'
+
+
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.6ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.5ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2014-03-13 20:32:27 -0700
+Processing by MoviesController#index as HTML
+{"action"=>"index", "controller"=>"movies"}
+params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-params-
+{"action"=>"index", "controller"=>"movies"}
+session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "order"=>"release_date"}
+==================================================
+tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~
+{:ratings=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, :order=>"release_date"}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `merge' for nil:NilClass):
+  app/controllers/movies_controller.rb:43:in `index'
+
+
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.3ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2014-03-13 20:33:48 -0700
+Processing by MoviesController#index as HTML
+{"action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"action"=>"index", "controller"=>"movies"}
+session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=session=
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "order"=>"release_date"}
+==================================================
+tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~tempparams~
+{:ratings=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, :order=>"release_date"}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `merge' for nil:NilClass):
+  app/controllers/movies_controller.rb:43:in `index'
+
+
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.6ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2014-03-13 20:34:18 -0700
+Processing by MoviesController#index as HTML
+{"action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"action"=>"index", "controller"=>"movies"}
+session==================================================
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "order"=>"release_date"}
+==================================================
+tempparams~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{:ratings=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, :order=>"release_date"}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `merge' for nil:NilClass):
+  app/controllers/movies_controller.rb:43:in `index'
+
+
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.6ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2014-03-13 20:35:10 -0700
+Processing by MoviesController#index as HTML
+{"action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"action"=>"index", "controller"=>"movies"}
+session==================================================
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "order"=>"release_date"}
+==================================================
+tempparams~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{:ratings=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, :order=>"release_date"}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+params--------------------------------------------------
+{"action"=>"index", "controller"=>"movies"}
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `merge' for nil:NilClass):
+  app/controllers/movies_controller.rb:45:in `index'
+
+
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.6ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2014-03-13 20:36:14 -0700
+Processing by MoviesController#index as HTML
+{"action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"action"=>"index", "controller"=>"movies"}
+session==================================================
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "order"=>"release_date"}
+==================================================
+tempparams~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{:ratings=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, :order=>"release_date"}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+params--------------------------------------------------
+{"action"=>"index", "controller"=>"movies"}
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `merge' for nil:NilClass):
+  app/controllers/movies_controller.rb:45:in `index'
+
+
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2014-03-13 20:36:33 -0700
+Processing by MoviesController#index as HTML
+{"action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"action"=>"index", "controller"=>"movies"}
+session==================================================
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "order"=>"release_date"}
+==================================================
+tempparams~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{:ratings=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, :order=>"release_date"}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+params--------------------------------------------------
+{"action"=>"index", "controller"=>"movies"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+
+Completed 500 Internal Server Error in 115896ms
+
+NoMethodError (undefined method `merge' for nil:NilClass):
+  app/controllers/movies_controller.rb:46:in `index'
+
+
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_trace.erb (9.9ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.9ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2014-03-13 20:38:29 -0700
+Processing by MoviesController#index as HTML
+{"action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"action"=>"index", "controller"=>"movies"}
+session==================================================
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "order"=>"release_date"}
+==================================================
+tempparams~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{:ratings=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, :order=>"release_date"}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+params--------------------------------------------------
+{"action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?order=release_date&ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2014-03-13 20:38:29 -0700
+Processing by MoviesController#index as HTML
+{"action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"action"=>"index", "controller"=>"movies"}
+session==================================================
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "order"=>"release_date"}
+==================================================
+tempparams~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{:ratings=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, :order=>"release_date"}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+params--------------------------------------------------
+{"action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?order=release_date&ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=release_date&ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1" for 127.0.0.1 at 2014-03-13 20:38:29 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}}
+{"order"=>"release_date", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"order"=>"release_date", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "action"=>"index", "controller"=>"movies"}
+session==================================================
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "order"=>"release_date"}
+==================================================
+tempparams~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/movies_controller.rb:51:in `index'
+
+
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.8ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2014-03-13 20:38:38 -0700
+Processing by MoviesController#index as HTML
+{"action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"action"=>"index", "controller"=>"movies"}
+session==================================================
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "order"=>"release_date"}
+==================================================
+tempparams~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{:ratings=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, :order=>"release_date"}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+params--------------------------------------------------
+{"action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?order=release_date&ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=release_date&ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1" for 127.0.0.1 at 2014-03-13 20:38:38 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}}
+{"order"=>"release_date", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"order"=>"release_date", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "action"=>"index", "controller"=>"movies"}
+session==================================================
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "order"=>"release_date"}
+==================================================
+tempparams~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/movies_controller.rb:51:in `index'
+
+
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.1ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.7ms)
+
+
+Started GET "/movies?order=release_date&ratings[G]=1&ratings[NC-17]=1&ratings[PG]=1&ratings[PG-13]=1" for 127.0.0.1 at 2014-03-13 20:39:59 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}}
+{"order"=>"release_date", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"order"=>"release_date", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "action"=>"index", "controller"=>"movies"}
+session==================================================
+{"session_id"=>"303394cd216b27ecc4ce44730d0ede5e", "_csrf_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "order"=>"release_date"}
+==================================================
+tempparams~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/movies_controller.rb:55:in `index'
+
+
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.8ms)
+
+
+Started GET "/movies?order=release_date&ratings[G]=1&ratings[NC-17]=1&ratings[PG]=1&ratings[PG-13]=1" for 127.0.0.1 at 2014-03-13 20:40:28 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}}
+{"order"=>"release_date", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "action"=>"index", "controller"=>"movies"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies" WHERE (rating in ('G','NC-17','PG','PG-13')) ORDER BY release_date
+  Rendered movies/index.html.haml within layouts/application (13.7ms)
+Completed 200 OK in 21ms (Views: 19.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-13 20:40:29 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-13 20:40:29 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?order=title&ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1" for 127.0.0.1 at 2014-03-13 20:40:30 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}}
+{"order"=>"title", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "action"=>"index", "controller"=>"movies"}
+  [1m[36mMovie Load (0.5ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (rating in ('G','NC-17','PG','PG-13')) ORDER BY LOWER(title)[0m
+  Rendered movies/index.html.haml within layouts/application (7.7ms)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-13 20:40:30 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-13 20:40:30 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1&ratings%5BNC-17%5D=1&commit=Refresh" for 127.0.0.1 at 2014-03-13 20:40:33 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1", "NC-17"=>"1"}, "commit"=>"Refresh"}
+{"utf8"=>"✓", "ratings"=>{"G"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1", "NC-17"=>"1"}, "commit"=>"Refresh", "action"=>"index", "controller"=>"movies"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies" WHERE (rating in ('G','PG','PG-13','R','NC-17')) ORDER BY LOWER(title)
+  Rendered movies/index.html.haml within layouts/application (13.1ms)
+Completed 200 OK in 26ms (Views: 24.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-13 20:40:34 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-13 20:40:34 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings[G]=1&ratings[PG]=1&ratings[PG-13]=1&ratings[R]=1&ratings[NC-17]=1&commit=Refresh" for 127.0.0.1 at 2014-03-13 21:06:05 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1", "NC-17"=>"1"}, "commit"=>"Refresh"}
+{"utf8"=>"✓", "ratings"=>{"G"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1", "NC-17"=>"1"}, "commit"=>"Refresh", "action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"utf8"=>"✓", "ratings"=>{"G"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1", "NC-17"=>"1"}, "commit"=>"Refresh", "action"=>"index", "controller"=>"movies"}
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (rating in ('G','PG','PG-13','R','NC-17')) ORDER BY LOWER(title)[0m
+  Rendered movies/index.html.haml within layouts/application (15.2ms)
+Completed 200 OK in 23ms (Views: 21.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-13 21:06:05 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-13 21:06:05 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings[G]=1&ratings[PG]=1&ratings[PG-13]=1&ratings[R]=1&ratings[NC-17]=1&commit=Refresh" for 127.0.0.1 at 2014-03-13 21:08:43 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1", "NC-17"=>"1"}, "commit"=>"Refresh"}
+{"utf8"=>"✓", "ratings"=>{"G"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1", "NC-17"=>"1"}, "commit"=>"Refresh", "action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"utf8"=>"✓", "ratings"=>{"G"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1", "NC-17"=>"1"}, "commit"=>"Refresh", "action"=>"index", "controller"=>"movies"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" WHERE (rating in ('G','PG','PG-13','R','NC-17')) ORDER BY LOWER(title)
+  Rendered movies/index.html.haml within layouts/application (14.2ms)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-13 21:08:43 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-13 21:08:43 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings[G]=1&ratings[PG]=1&ratings[PG-13]=1&ratings[R]=1&ratings[NC-17]=1&commit=Refresh" for 127.0.0.1 at 2014-03-13 21:25:18 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1", "NC-17"=>"1"}, "commit"=>"Refresh"}
+{"utf8"=>"✓", "ratings"=>{"G"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1", "NC-17"=>"1"}, "commit"=>"Refresh", "action"=>"index", "controller"=>"movies"}
+Completed 500 Internal Server Error in 1ms
+
+TypeError (no implicit conversion of nil into Hash):
+  app/controllers/movies_controller.rb:33:in `merge'
+  app/controllers/movies_controller.rb:33:in `index'
+
+
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.8ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings[G]=1&ratings[PG]=1&ratings[PG-13]=1&ratings[R]=1&ratings[NC-17]=1&commit=Refresh" for 127.0.0.1 at 2014-03-13 21:25:30 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1", "NC-17"=>"1"}, "commit"=>"Refresh"}
+{"utf8"=>"✓", "ratings"=>{"G"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1", "NC-17"=>"1"}, "commit"=>"Refresh", "action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"utf8"=>"✓", "ratings"=>{"G"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1", "NC-17"=>"1"}, "commit"=>"Refresh", "action"=>"index", "controller"=>"movies"}
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (rating in ('G','PG','PG-13','R','NC-17')) ORDER BY LOWER(title)[0m
+  Rendered movies/index.html.haml within layouts/application (14.2ms)
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-13 21:25:30 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-13 21:25:30 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings[G]=1&ratings[PG]=1&ratings[PG-13]=1&ratings[R]=1&ratings[NC-17]=1&commit=Refresh" for 127.0.0.1 at 2014-03-13 22:38:49 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1", "NC-17"=>"1"}, "commit"=>"Refresh"}
+{"utf8"=>"✓", "ratings"=>{"G"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1", "NC-17"=>"1"}, "commit"=>"Refresh", "action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"utf8"=>"✓", "ratings"=>{"G"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1", "NC-17"=>"1"}, "commit"=>"Refresh", "action"=>"index", "controller"=>"movies", "order"=>"title"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies" WHERE (rating in ('G','PG','PG-13','R','NC-17')) ORDER BY LOWER(title)
+  Rendered movies/index.html.haml within layouts/application (22.1ms)
+Completed 200 OK in 30ms (Views: 27.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-13 22:38:49 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-13 22:38:49 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings[G]=1&ratings[PG]=1&ratings[PG-13]=1&ratings[R]=1&ratings[NC-17]=1&commit=Refresh" for 127.0.0.1 at 2014-03-13 22:45:49 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1", "NC-17"=>"1"}, "commit"=>"Refresh"}
+{"utf8"=>"✓", "ratings"=>{"G"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1", "NC-17"=>"1"}, "commit"=>"Refresh", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"utf8"=>"✓", "ratings"=>{"G"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1", "NC-17"=>"1"}, "commit"=>"Refresh", "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 22:45:49 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1", "NC-17"=>"1"}}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 22:45:49 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 22:45:49 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 22:45:50 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 22:45:50 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 22:45:50 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 22:45:50 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 22:45:50 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 22:45:50 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 22:45:50 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 22:45:50 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 22:45:50 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 22:45:50 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 22:45:50 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 22:45:50 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 22:45:50 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 22:45:50 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 22:45:50 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 22:45:50 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 22:45:50 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings[G]=1&ratings[NC-17]=1&ratings[PG]=1&ratings[PG-13]=1&ratings[R]=1" for 127.0.0.1 at 2014-03-13 22:48:54 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 22:48:54 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 22:48:54 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 22:48:54 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 22:48:54 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 22:48:54 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 22:48:54 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 22:48:54 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 22:48:54 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 22:48:54 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 22:48:54 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 22:48:54 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 22:48:54 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 22:48:54 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 22:48:55 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 22:48:55 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 22:48:55 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 22:48:55 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 22:48:55 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 22:48:55 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 22:48:55 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings[G]=1&ratings[NC-17]=1&ratings[PG]=1&ratings[PG-13]=1&ratings[R]=1" for 127.0.0.1 at 2014-03-13 22:49:33 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 22:49:34 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 22:49:34 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 22:49:34 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 22:49:34 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 22:49:34 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 22:49:34 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 22:49:34 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 22:49:34 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 22:49:34 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 22:49:34 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 22:49:34 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 22:49:34 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 22:49:34 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 22:49:34 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 22:49:34 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 22:49:34 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 22:49:34 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 22:49:34 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 22:49:35 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 22:49:35 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies", "order"=>"title"}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings[G]=1&ratings[NC-17]=1&ratings[PG]=1&ratings[PG-13]=1&ratings[R]=1" for 127.0.0.1 at 2014-03-13 23:10:24 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 23:10:24 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 23:10:24 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 23:10:24 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 23:10:25 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 23:10:25 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 23:10:25 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 23:10:25 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 23:10:25 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 23:10:25 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 23:10:25 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 23:10:25 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 23:10:25 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 23:10:25 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 23:10:25 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 23:10:25 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 23:10:25 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 23:10:25 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 23:10:25 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 23:10:25 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 23:10:25 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings[G]=1&ratings[NC-17]=1&ratings[PG]=1&ratings[PG-13]=1&ratings[R]=1" for 127.0.0.1 at 2014-03-13 23:10:35 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 23:10:35 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 23:10:35 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 23:10:35 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 23:10:35 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 23:10:35 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 23:10:35 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 23:10:35 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 23:10:35 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 23:10:35 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 23:10:35 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 23:10:35 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 23:10:35 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 23:10:35 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 23:10:36 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 23:10:36 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 23:10:36 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 23:10:36 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 23:10:36 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2014-03-13 23:10:36 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"order"=>"title", "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 23:10:36 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?order=title
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings[G]=1&ratings[NC-17]=1&ratings[PG]=1&ratings[PG-13]=1&ratings[R]=1" for 127.0.0.1 at 2014-03-13 23:14:44 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?order=title&ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title&ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 23:14:44 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"order"=>"title", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"order"=>"title", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"order"=>"title", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (rating in ('G','NC-17','PG','PG-13','R')) ORDER BY LOWER(title)[0m
+  Rendered movies/index.html.haml within layouts/application (35.2ms)
+Completed 200 OK in 42ms (Views: 40.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-13 23:14:44 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-13 23:14:44 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2014-03-13 23:14:52 -0700
+Processing by MoviesController#index as HTML
+{"action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?order=title&ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title&ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 23:14:52 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"order"=>"title", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"order"=>"title", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"order"=>"title", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies" WHERE (rating in ('G','NC-17','PG','PG-13','R')) ORDER BY LOWER(title)
+  Rendered movies/index.html.haml within layouts/application (17.5ms)
+Completed 200 OK in 24ms (Views: 22.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-13 23:14:52 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (28ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-13 23:14:52 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?order=release_date&ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 23:14:59 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"order"=>"release_date", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"order"=>"release_date", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"order"=>"release_date", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (rating in ('G','NC-17','PG','PG-13','R')) ORDER BY release_date[0m
+  Rendered movies/index.html.haml within layouts/application (15.8ms)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-13 23:14:59 -0700
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-13 23:14:59 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?order=title&ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 23:15:02 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"order"=>"title", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"order"=>"title", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"order"=>"title", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies" WHERE (rating in ('G','NC-17','PG','PG-13','R')) ORDER BY LOWER(title)
+  Rendered movies/index.html.haml within layouts/application (13.1ms)
+Completed 200 OK in 20ms (Views: 18.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-13 23:15:02 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-13 23:15:02 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?order=release_date&ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 23:15:05 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+{"order"=>"release_date", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"order"=>"release_date", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"order"=>"release_date", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (rating in ('G','NC-17','PG','PG-13','R')) ORDER BY release_date[0m
+  Rendered movies/index.html.haml within layouts/application (13.9ms)
+Completed 200 OK in 20ms (Views: 18.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-13 23:15:06 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-13 23:15:06 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BNC-17%5D=1&commit=Refresh" for 127.0.0.1 at 2014-03-13 23:15:10 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"1", "PG"=>"1", "PG-13"=>"1", "NC-17"=>"1"}, "commit"=>"Refresh"}
+{"utf8"=>"✓", "ratings"=>{"G"=>"1", "PG"=>"1", "PG-13"=>"1", "NC-17"=>"1"}, "commit"=>"Refresh", "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"utf8"=>"✓", "ratings"=>{"G"=>"1", "PG"=>"1", "PG-13"=>"1", "NC-17"=>"1"}, "commit"=>"Refresh", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?order=release_date&ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1
+params--------------------------------------------------
+{"utf8"=>"✓", "ratings"=>{"G"=>"1", "PG"=>"1", "PG-13"=>"1", "NC-17"=>"1"}, "commit"=>"Refresh", "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=release_date&ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1" for 127.0.0.1 at 2014-03-13 23:15:10 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}}
+{"order"=>"release_date", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"order"=>"release_date", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"order"=>"release_date", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "action"=>"index", "controller"=>"movies"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies" WHERE (rating in ('G','NC-17','PG','PG-13')) ORDER BY release_date
+  Rendered movies/index.html.haml within layouts/application (15.2ms)
+Completed 200 OK in 24ms (Views: 22.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-13 23:15:10 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-13 23:15:10 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?order=title&ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1" for 127.0.0.1 at 2014-03-13 23:15:12 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}}
+{"order"=>"title", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"order"=>"title", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"order"=>"title", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "action"=>"index", "controller"=>"movies"}
+  [1m[36mMovie Load (6.6ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (rating in ('G','NC-17','PG','PG-13')) ORDER BY LOWER(title)[0m
+  Rendered movies/index.html.haml within layouts/application (13.5ms)
+Completed 200 OK in 20ms (Views: 11.9ms | ActiveRecord: 6.6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-13 23:15:12 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-13 23:15:12 -0700
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/movies?order=release_date&ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1" for 127.0.0.1 at 2014-03-13 23:15:14 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}}
+{"order"=>"release_date", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"order"=>"release_date", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"order"=>"release_date", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "action"=>"index", "controller"=>"movies"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies" WHERE (rating in ('G','NC-17','PG','PG-13')) ORDER BY release_date
+  Rendered movies/index.html.haml within layouts/application (15.5ms)
+Completed 200 OK in 30ms (Views: 24.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-13 23:15:14 -0700
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-13 23:15:14 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies/6" for 127.0.0.1 at 2014-03-13 23:15:16 -0700
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", "6"]]
+  Rendered movies/show.html.haml within layouts/application (8.4ms)
+Completed 200 OK in 21ms (Views: 18.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-13 23:15:16 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-13 23:15:16 -0700
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/movies/6/edit" for 127.0.0.1 at 2014-03-13 23:15:18 -0700
+Processing by MoviesController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", "6"]]
+  Rendered movies/edit.html.haml within layouts/application (26.8ms)
+Completed 200 OK in 39ms (Views: 36.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-13 23:15:18 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-13 23:15:18 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started PUT "/movies/6" for 127.0.0.1 at 2014-03-13 23:15:30 -0700
+Processing by MoviesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iWfsjDuFGRv4AsyBcpOQ4ui1ZmfhbSfqHZUeHbpzjEY=", "movie"=>{"title"=>"fiuuuuu", "rating"=>"PG-13", "release_date(1i)"=>"2009", "release_date(2i)"=>"3", "release_date(3i)"=>"12"}, "commit"=>"Update Movie Info", "id"=>"6"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", "6"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mUPDATE "movies" SET "title" = 'fiuuuuu', "rating" = 'PG-13', "updated_at" = '2014-03-14 06:15:30.776798' WHERE "movies"."id" = 6[0m
+  [1m[35m (7.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/movies/6
+Completed 302 Found in 36ms (ActiveRecord: 8.0ms)
+
+
+Started GET "/movies/6" for 127.0.0.1 at 2014-03-13 23:15:30 -0700
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", "6"]]
+  Rendered movies/show.html.haml within layouts/application (1.7ms)
+Completed 200 OK in 26ms (Views: 14.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-13 23:15:30 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-13 23:15:30 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2014-03-13 23:15:35 -0700
+Processing by MoviesController#index as HTML
+{"action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?order=release_date&ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1
+params--------------------------------------------------
+{"action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=release_date&ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1" for 127.0.0.1 at 2014-03-13 23:15:35 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}}
+{"order"=>"release_date", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"order"=>"release_date", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"order"=>"release_date", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "action"=>"index", "controller"=>"movies"}
+  [1m[35mMovie Load (0.4ms)[0m  SELECT "movies".* FROM "movies" WHERE (rating in ('G','NC-17','PG','PG-13')) ORDER BY release_date
+  Rendered movies/index.html.haml within layouts/application (11.0ms)
+Completed 200 OK in 36ms (Views: 18.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-13 23:15:36 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (22ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-13 23:15:36 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?order=title&ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1" for 127.0.0.1 at 2014-03-13 23:15:46 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}}
+{"order"=>"title", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"order"=>"title", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"order"=>"title", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1"}, "action"=>"index", "controller"=>"movies"}
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (rating in ('G','NC-17','PG','PG-13')) ORDER BY LOWER(title)[0m
+  Rendered movies/index.html.haml within layouts/application (7.9ms)
+Completed 200 OK in 18ms (Views: 16.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-13 23:15:46 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-13 23:15:46 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=1&ratings%5BPG%5D=1&ratings%5BNC-17%5D=1&commit=Refresh" for 127.0.0.1 at 2014-03-13 23:15:54 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"1", "PG"=>"1", "NC-17"=>"1"}, "commit"=>"Refresh"}
+{"utf8"=>"✓", "ratings"=>{"G"=>"1", "PG"=>"1", "NC-17"=>"1"}, "commit"=>"Refresh", "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"utf8"=>"✓", "ratings"=>{"G"=>"1", "PG"=>"1", "NC-17"=>"1"}, "commit"=>"Refresh", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?order=title&ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1
+params--------------------------------------------------
+{"utf8"=>"✓", "ratings"=>{"G"=>"1", "PG"=>"1", "NC-17"=>"1"}, "commit"=>"Refresh", "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title&ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1" for 127.0.0.1 at 2014-03-13 23:15:54 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1"}}
+{"order"=>"title", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"order"=>"title", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1"}, "action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"order"=>"title", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1"}, "action"=>"index", "controller"=>"movies"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies" WHERE (rating in ('G','NC-17','PG')) ORDER BY LOWER(title)
+  Rendered movies/index.html.haml within layouts/application (21.8ms)
+Completed 200 OK in 44ms (Views: 35.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-13 23:15:54 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-13 23:15:54 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=1&ratings%5BPG%5D=1&ratings%5BR%5D=1&ratings%5BNC-17%5D=1&commit=Refresh" for 127.0.0.1 at 2014-03-13 23:15:57 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"1", "PG"=>"1", "R"=>"1", "NC-17"=>"1"}, "commit"=>"Refresh"}
+{"utf8"=>"✓", "ratings"=>{"G"=>"1", "PG"=>"1", "R"=>"1", "NC-17"=>"1"}, "commit"=>"Refresh", "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"utf8"=>"✓", "ratings"=>{"G"=>"1", "PG"=>"1", "R"=>"1", "NC-17"=>"1"}, "commit"=>"Refresh", "action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?order=title&ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BR%5D=1
+params--------------------------------------------------
+{"utf8"=>"✓", "ratings"=>{"G"=>"1", "PG"=>"1", "R"=>"1", "NC-17"=>"1"}, "commit"=>"Refresh", "action"=>"index", "controller"=>"movies"}
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title&ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 23:15:57 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "R"=>"1"}}
+{"order"=>"title", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+paramsREDIRECT--------------------------------------------------
+{"order"=>"title", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+params--------------------------------------------------
+{"order"=>"title", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (rating in ('G','NC-17','PG','R')) ORDER BY LOWER(title)[0m
+  Rendered movies/index.html.haml within layouts/application (10.5ms)
+Completed 200 OK in 37ms (Views: 35.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-13 23:15:57 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-13 23:15:57 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?order=title&ratings[G]=1&ratings[NC-17]=1&ratings[PG]=1&ratings[R]=1" for 127.0.0.1 at 2014-03-13 23:21:43 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "R"=>"1"}}
+{"order"=>"title", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies" WHERE (rating in ('G','NC-17','PG','R')) ORDER BY LOWER(title)
+  Rendered movies/index.html.haml within layouts/application (15.5ms)
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-13 23:21:43 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-13 23:21:43 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2014-03-13 23:21:47 -0700
+Processing by MoviesController#index as HTML
+{"action"=>"index", "controller"=>"movies"}
+Redirected to http://localhost:3000/movies?order=title&ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BR%5D=1
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?order=title&ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2014-03-13 23:21:47 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "R"=>"1"}}
+{"order"=>"title", "ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "R"=>"1"}, "action"=>"index", "controller"=>"movies"}
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (rating in ('G','NC-17','PG','R')) ORDER BY LOWER(title)[0m
+  Rendered movies/index.html.haml within layouts/application (7.1ms)
+Completed 200 OK in 28ms (Views: 27.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-13 23:21:47 -0700
+Served asset /jquery.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-13 23:21:47 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)

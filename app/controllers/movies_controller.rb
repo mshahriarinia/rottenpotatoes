@@ -15,28 +15,45 @@ class MoviesController < ApplicationController
     @all_ratings = Movie.ALL_RATINGS
     @ratings_filter_arr = Movie.ALL_RATINGS
 
+    params_updated = false;
+
     logger.info params
 
-    #if(params == nil)
-    #  params = Hash.new
-    #end
-    #if(params[:ratings] == nil && session[:ratings] == nil)  #initially set to view all ratings
-    #   params = {:ratings => @all_ratings} #create initial params hash
-    #end
-    logger.info "-"*50	
-    logger.info params
+    #--------------------------------------------------------------
+    #Maintain ReSTful URL: move parameters from session to params if missing
+ 
+    tempparams = {}
+
+    raitingsUpdate = false
+    tempparams[:ratings] = params[:ratings]
+    if (params[:ratings] == nil)
+      tempparams[:ratings] = session[:ratings] 
+      raitingsUpdate = true
+    end
+
+    orderUpdate = false
+    tempparams[:order] = params[:order] 
+    if (params[:order] == nil)
+      tempparams[:order] = session[:order] 
+      orderUpdate = true
+    end
+
+    if(orderUpdate || raitingsUpdate)
+      redirect_to movies_path(tempparams) 
+    end
+    #--------------------------------------------------------------
 
     if(params[:order])
       session[:order] = params[:order]
     end
 
-      params[:order] = session[:order]
-      @order = params[:order]
-      if(@order == "title")
-        @movies = Movie.order("LOWER(#{@order})")
-      elsif(@order == "release_date")
-        @movies = Movie.order("#{@order}")
-     end
+    params[:order] = session[:order]
+    @order = params[:order]
+    if(@order == "title")
+      @movies = Movie.order("LOWER(#{@order})")
+    elsif(@order == "release_date")
+      @movies = Movie.order("#{@order}")
+    end
 
     #debugger
     if(params[:ratings])
