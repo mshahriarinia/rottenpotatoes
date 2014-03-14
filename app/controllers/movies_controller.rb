@@ -39,7 +39,7 @@ class MoviesController < ApplicationController
     end
 
     if(orderUpdate || raitingsUpdate)
-      redirect_to movies_path(tempparams) 
+      redirect_to movies_path(tempparams)  if ! tempparams
     end
     #--------------------------------------------------------------
 
